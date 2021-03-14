@@ -6,7 +6,7 @@ A NodeJS application to scrap the popular videos from YouTube.
 
 Download/Clone the repo and follow the Steps mentioned in the installation part to get started
 ```sh
-$ git clone https://github.com/RahulShaw221994/youtube-trending-videos-scraper.git
+$ git clone https://github.com/ankitmehrotrachemistry/youtube-trending-videos-scraper.git
 ```
 
 ### Prerequisites
@@ -37,12 +37,12 @@ $ git clone https://github.com/RahulShaw221994/youtube-trending-videos-scraper.g
 ## Start Node Backend
 
 ```sh
-> np start or npm run dev (to start nodemon)
+> npm start or npm run dev (to start nodemon in dev mode)
 ```
 
 # API Routes
 
-## endpoint to retrieve the popular videos from YouTube: "https://www.youtube.com/feed/trending" and save it to the database.
+## 1. endpoint to retrieve the popular videos from YouTube: "https://www.youtube.com/feed/trending" and save it to the database.
 url:
 ```
 http://localhost:3000/api/videosListUpdate
@@ -52,7 +52,7 @@ method:
 PUT
 ```
 
-## endpoint to return the videos list from the database.
+## 2. endpoint to return the videos list from the database.
 url:
 ```
 http://localhost:3000/api/videosList
@@ -62,7 +62,7 @@ method:
 GET
 ```
 
-## endpoint to  return the detail about a single video.
+## 3. endpoint to  return the detail about a single video.
 url:
 ```
 http://localhost:3000/api/videoDetails/AKBF-jeOlD8
@@ -72,10 +72,10 @@ method:
 GET
 
 ## Workflow
-* Use the first api to intially scrape and save the trending vudeos in the database
-* open video-list.html page to view the list of popular videos
+* Use the first api to intially scrape and save the trending vudeos in the database.
+* open video-list.html page to view the list of popular videos.
 * Click on Reload button to retrieve the videos again and saved it to the database.
-* Click on any video card to view the video details page
+* Click on any video card to view the video details page.
 ## Built With
 
 * HTML5/CSS3
@@ -86,3 +86,6 @@ GET
 * MongoDB
 * Mongoose
 
+## Author
+
+* **Ankit Mehrotra**
